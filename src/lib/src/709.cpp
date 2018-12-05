@@ -1,7 +1,10 @@
 #include <leetcode/709.hpp>
 #include <cctype>
 
-namespace leetcode::p709 {
+#ifdef LEETCODE_LOCAL
+namespace leetcode {
+namespace p709 {
+#endif
 
 std::string Solution::toLowerCase(std::string str) {
     for (char &ch : str) {
@@ -10,4 +13,7 @@ std::string Solution::toLowerCase(std::string str) {
     return str;
 }
 
+#ifdef LEETCODE_LOCAL
 }
+}
+#endif

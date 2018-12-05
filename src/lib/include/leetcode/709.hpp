@@ -3,7 +3,8 @@
 #include <string>
 
 #ifdef LEETCODE_LOCAL
-namespace leetcode::p709 {
+namespace leetcode {
+namespace p709 {
 #endif
 
 class Solution {
@@ -12,6 +13,7 @@ public:
 };
 
 #ifdef LEETCODE_LOCAL
+}
 }
 #endif
 

@@ -1,0 +1,14 @@
+dist: xenial
+language: cpp
+compiler:
+- gcc
+addons:
+  apt:
+    packages:
+    - gcc-6
+    - g++-6
+cache:
+  directories:
+  - cmake-build-release/
+script:
+- ./scripts/travis-build-test.sh
