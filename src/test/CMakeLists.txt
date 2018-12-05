@@ -1,6 +1,7 @@
 
 add_executable(leetcode-test
         src/main.cpp
+        src/leetcode/5.cpp
         src/leetcode/709.cpp
         )
 
