@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 # Pull in external targets:
 #   - Catch2::Catch2
+#   - rapidcheck
 add_subdirectory(extern)
 
 # old code

@@ -1,4 +1,6 @@
 add_library(leetcode STATIC
+        include/leetcode/4.hpp
+        src/4.cpp
         include/leetcode/5.hpp
         src/5.cpp
         include/leetcode/6.hpp
